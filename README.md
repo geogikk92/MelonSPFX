@@ -12,10 +12,15 @@
 '31359c7f-bd7e-475c-86db-fdb8c937548e' named 'PnP Management Shell'. Send an interactive authorization request for
 this user and resource.
 - Се изпълнява следната команда: Register-PnPManagementShellAccess
-4)  Добавяне на решението в App Catalog-a
-Add-PnPApp -Path "C:\Users\...\MelonSPFX\sharepoint\solution\melon-spfx.sppkg"5)  Деплойване на решението Publish-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489 -SkipFeatureDeploymente8ab6c4f-d534-4c4b-b391-54d64bbfc489 (You can find the ID of your solution on the package-solution.json file)
+- Добавяне на решението в App Catalog-a
+- Add-PnPApp -Path "C:\Users\...\MelonSPFX\sharepoint\solution\melon-spfx.sppkg"5) 
+-  Деплойване на решението 
+-  Publish-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489 -SkipFeatureDeploymente
+-  8ab6c4f-d534-4c4b-b391-54d64bbfc489 (You can find the ID of your solution on the package-solution.json file)
 
-6)  Инсталиране на решението в определена сайт колекция: Connect-PnPOnline -Url https://yourdomain.sharepoint.com/sites/targetSiteCollection Install-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489
+- Инсталиране на решението в определена сайт колекция:
+-  Connect-PnPOnline -Url https://yourdomain.sharepoint.com/sites/targetSiteCollection
+-   Install-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489
 
 ## Used SharePoint Framework Version
 
