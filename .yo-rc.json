@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "melon-spfx",
+    "libraryId": "2b9b36d9-1793-4e4b-952d-6a91628e4f85",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "melon-spfx",
+    "solutionShortDescription": "melon-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

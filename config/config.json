@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-melon-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloMelon/HelloMelonWebPart.js",
+          "manifest": "./src/webparts/helloMelon/HelloMelonWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloMelonWebPartStrings": "lib/webparts/helloMelon/loc/{locale}.js"
+  }
+}

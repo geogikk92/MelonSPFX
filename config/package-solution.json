@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "melon-spfx-client-side-solution",
+    "id": "2b9b36d9-1793-4e4b-952d-6a91628e4f85",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "melon-spfx description"
+      },
+      "longDescription": {
+        "default": "melon-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "melon-spfx Feature",
+        "description": "The feature that activates elements of the melon-spfx solution.",
+        "id": "c9344d0a-e433-41bd-a54c-ba782e1b4d3f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/melon-spfx.sppkg"
+  }
+}
