@@ -6,8 +6,9 @@
 - Отваряме Windows Powershell като "Administrator"
 
 - Инсталираме powershell модул за работа O365 (SharePoint Online, Microsoft Teams, Microsoft Planner and Microsoft Flow)
-- Install-Module -Name "PnP.PowerShell"3)  Свързване с App Catalog сайт колекцията в SharePoint Online
-- Connect-PnPOnline -Url https://yourdomain.sharepoint.com/sites/yourSiteCollectionAppCatalog
+- **Install-Module -Name "PnP.PowerShell")**
+- Свързване с App Catalog сайт колекцията в SharePoint Online
+- **Connect-PnPOnline -Url https://yourdomain.sharepoint.com/sites/yourSiteCollectionAppCatalog**
 - При появата на тази грешка: Connect-PnPOnline : AADSTS65001: The user or administrator has not consented to use the application with ID
 '31359c7f-bd7e-475c-86db-fdb8c937548e' named 'PnP Management Shell'. Send an interactive authorization request for
 this user and resource.
