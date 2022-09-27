@@ -12,16 +12,16 @@
 - При появата на тази грешка: Connect-PnPOnline : AADSTS65001: The user or administrator has not consented to use the application with ID
 '31359c7f-bd7e-475c-86db-fdb8c937548e' named 'PnP Management Shell'. Send an interactive authorization request for
 this user and resource.
-- Се изпълнява следната команда: Register-PnPManagementShellAccess
+- Се изпълнява следната команда: **Register-PnPManagementShellAccess**
 - Добавяне на решението в App Catalog-a
-- Add-PnPApp -Path "C:\Users\...\MelonSPFX\sharepoint\solution\melon-spfx.sppkg"5) 
+- **Add-PnPApp -Path "C:\Users\...\MelonSPFX\sharepoint\solution\melon-spfx.sppkg"5)**
 -  Деплойване на решението 
--  Publish-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489 -SkipFeatureDeploymente
+-  **Publish-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489 -SkipFeatureDeployment**
 -  8ab6c4f-d534-4c4b-b391-54d64bbfc489 (You can find the ID of your solution on the package-solution.json file)
 
 - Инсталиране на решението в определена сайт колекция:
--  Connect-PnPOnline -Url https://yourdomain.sharepoint.com/sites/targetSiteCollection
--   Install-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489
+-  **Connect-PnPOnline -Url https://yourdomain.sharepoint.com/sites/targetSiteCollection**
+-  **Install-PnPApp -Identity e8ab6c4f-d534-4c4b-b391-54d64bbfc489**
 
 ## Used SharePoint Framework Version
 
